@@ -46,12 +46,18 @@ header{
 
 /* FINE HEADER */
 
-/* INIZIO PRIMA SEZIONE */
-.container_main_uno {
+/* INIZIO CREAZIONE ELEMENTI*/
+.container_main {
     height: 250px;
     border: 1px solid;
+}
+/* FINE CREAZIONE ELEMENTI*/
+
+/* INIZIO PRIMA SEZIONE */
+.section_uno {
     background-color: rgb(3, 3, 173);
 }
+
 .box_container_uno {
     width: 400px;
     height: 180px;
