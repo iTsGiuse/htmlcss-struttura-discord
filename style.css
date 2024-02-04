@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* INIZIO HEADER */
 header{
     height: 40px;
     background-color: rgb(0, 148, 254);
@@ -43,3 +44,24 @@ header{
     text-align:center;
 }
 
+/* FINE HEADER */
+
+/* INIZIO PRIMA SEZIONE */
+.container_main_uno {
+    height: 250px;
+    border: 1px solid;
+    background-color: rgb(3, 3, 173);
+}
+.box_container_uno {
+    width: 400px;
+    height: 180px;
+    border: 1px dashed;
+    padding: 10px;
+    background-color: rgb(234, 3, 203);
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* FINE PRIMA SEZIONE */
