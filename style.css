@@ -124,6 +124,18 @@ header{
 /* FINE TERZA SEZIONE */
 
 /* INIZIO QUARTA SEZIONE */
+.section_quattro{
+    background-color: white;
+}
+
+.box_container_uno {
+    background-color: rgb(234, 3, 203);
+  
+}
+
+.box_container_due{
+    background-color: blue;
+}
 /* FINE QUARTA SEZIONE */
 
 /* INIZIO QUINTA SEZIONE */
