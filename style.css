@@ -73,14 +73,22 @@ header{
     border: 1px dashed;
     padding: 10px;
  }
+
+ .box_container_tre {
+    width: 400px;
+    height: 220px;
+    border: 1px dashed;
+    padding: 10px;
+}
+ 
 /* FINE CREAZIONE ELEMENTI*/
 
 /* INIZIO PRIMA SEZIONE */
 .section_uno {
-    background-color: rgb(3, 3, 173);
+    background-color: rgb(2, 2, 174);
 }
 
-.box_container_uno {
+.box_container_tre {
     background-color: rgb(234, 3, 203);
 }
 /* FINE PRIMA SEZIONE */
