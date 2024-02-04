@@ -43,14 +43,36 @@ header{
 .text_link {
     text-align:center;
 }
-
 /* FINE HEADER */
 
 /* INIZIO CREAZIONE ELEMENTI*/
 .container_main {
-    height: 250px;
-    border: 1px solid;
+    height: 280px;
+    border: 1px solid transparent;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
+
+.box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box_container_uno {
+    width: 300px;
+    height: 220px;
+    border: 1px dashed;
+    padding: 10px;
+}
+
+.box_container_due {
+    width: 450px;
+    height: 220px;
+    border: 1px dashed;
+    padding: 10px;
+ }
 /* FINE CREAZIONE ELEMENTI*/
 
 /* INIZIO PRIMA SEZIONE */
@@ -59,15 +81,48 @@ header{
 }
 
 .box_container_uno {
-    width: 400px;
-    height: 180px;
-    border: 1px dashed;
-    padding: 10px;
     background-color: rgb(234, 3, 203);
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
 }
 /* FINE PRIMA SEZIONE */
+
+/* INIZIO SECONDA SEZIONE */
+.section_due {
+    background-color: white;
+}
+
+.box_container_uno {
+    background-color: rgb(234, 3, 203);
+  
+}
+
+.box_container_due{
+    background-color: blue;
+}
+/* FINE SECONDA SEZIONE */
+
+/* INIZIO TERZA SEZIONE */
+.section_tre {
+    background-color: rgb(183, 183, 183);
+}
+
+.box_container_uno {
+    background-color: rgb(234, 3, 203);
+  
+}
+
+.box_container_due{
+    background-color: blue;
+}
+/* FINE TERZA SEZIONE */
+
+/* INIZIO QUARTA SEZIONE */
+/* FINE QUARTA SEZIONE */
+
+/* INIZIO QUINTA SEZIONE */
+/* FINE QUINTA SEZIONE */
+
+/* INIZIO SESTA SEZIONE */
+/* FINE SESTA SEZIONE */
+
+/* INIZIO FOOTER */
+/* FINE FOOTER */
