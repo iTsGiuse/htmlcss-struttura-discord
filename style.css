@@ -1,5 +1,45 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
+header{
+    height: 40px;
+    background-color: rgb(0, 148, 254);
+}
+
+.container_box_header{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.container_logo_login {
+    border: 2px dashed;
+    background-color: orange;
+    width: 150px;
+    padding: 5px;
+}
+
+.container_link {
+    border: 2px dashed;
+    background-color: orange;
+    width: 400px;
+    padding: 5px;
+}
+
+.text_logo {
+    text-align:left;
+}
+
+.text_login {
+    text-align: right;
+}
+
+.text_link {
+    text-align:center;
+}
+
